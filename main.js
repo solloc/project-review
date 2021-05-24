@@ -20,17 +20,19 @@ function createWindow () {
   })
 
   win.loadFile('index.html')
+  win.setProgressBar(0.5)
 }
 
 app.whenReady().then(() => {
   createWindow()
+  // app.addRecentDocument('C:\\Users\\matth\\AppData\\Local\\Temp\\test.md')
 
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow()
     }
   })
-}).then(showNotification)
+})//.then(showNotification)
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {

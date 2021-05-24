@@ -1,7 +1,7 @@
-const myNotification = new Notification('Title', {
-    body: 'Notification from Renderer process'
-})
+// const myNotification = new Notification('Title', {
+//     body: 'Notification from Renderer process'
+// })
 
-myNotification.onclick = () => {
-    console.log('Notification clicked')
-}
+// myNotification.onclick = () => {
+//     console.log('Notification clicked')
+// }
