@@ -1,0 +1,19 @@
+{
+  "name": "project-review",
+  "version": "1.0.0",
+  "description": "App to review project progress. Sample app for electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solloc/project-review.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solloc/project-review/issues"
+  },
+  "homepage": "https://github.com/solloc/project-review#readme"
+}
