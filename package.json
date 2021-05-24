@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/solloc/project-review/issues"
   },
-  "homepage": "https://github.com/solloc/project-review#readme"
+  "homepage": "https://github.com/solloc/project-review#readme",
+  "devDependencies": {
+    "electron": "^12.0.9"
+  }
 }
