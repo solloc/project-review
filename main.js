@@ -19,8 +19,8 @@ function createWindow () {
     }
   })
 
-  win.loadFile('index.html')
-  win.setProgressBar(0.5)
+  win.loadFile('public/index.html')
+  // win.setProgressBar(0.5)
 }
 
 app.whenReady().then(() => {
